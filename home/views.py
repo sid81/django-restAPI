@@ -16,6 +16,7 @@ from rest_framework.permissions import IsAuthenticated
 # Create your views here.
 @api_view(['GET'])
 def home(request):
+    
     return Response(
         {
             'satus':200,
